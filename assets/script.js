@@ -7,12 +7,8 @@ let email='admin@gmail.com'
     let emailv = document.getElementById('emai').value;
     let passv = document.getElementById('passw').value;
     
-    (email==emailv && pass==passv )?
-        alert('correct'):
-    
-        alert('uncorrect')
+    (email==emailv && pass==passv ) ? alert('correct') : alert('uncorrect')
 
-  
 }
 
 
